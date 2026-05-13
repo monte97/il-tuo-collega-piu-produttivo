@@ -1,0 +1,21 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.sln.docstates
+
+## IDE
+.vs/
+.vscode/
+.idea/
+*.swp
+*~
+
+## Stryker reports (generated)
+reports/
+StrykerOutput/
+
+## OS
+.DS_Store
+Thumbs.db

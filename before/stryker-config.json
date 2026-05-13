@@ -1,0 +1,12 @@
+{
+  "stryker-config": {
+    "project": "MutationTestingDemo.csproj",
+    "mutate": [
+      "**/*Service.cs"
+    ],
+    "reporters": ["html", "json", "progress", "cleartext"],
+    "concurrency": 4,
+    "mutation-level": "Standard",
+    "additional-timeout": 5000
+  }
+}

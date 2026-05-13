@@ -1,0 +1,8 @@
+bin/
+obj/
+reports/
+StrykerOutput/
+.git/
+.vs/
+.vscode/
+.idea/

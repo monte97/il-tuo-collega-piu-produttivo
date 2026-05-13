@@ -1,0 +1,6 @@
+services:
+  demo:
+    build: .
+    volumes:
+      - ./reports:/app/reports
+    working_dir: /app
